@@ -1,8 +1,20 @@
 body{
-    background-image:url(hatter.jpg);
+    background-image:url(hatter3.jpg);
     background-repeat: no-repeat;
     background-size:cover ;
 }
 .fakeimg {
     height: 200px;
     background: #aaa;
+}
+.jumbotron{
+    background-image: url(hatter2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.responsive {
+    width: 100%;
+    max-width: 1250px;
+    height: auto;
+  }

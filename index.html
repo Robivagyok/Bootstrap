@@ -14,68 +14,75 @@
 <body>
 
 <div class="jumbotron text-center">
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+  
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="hatter4.png" alt="Ösvény" class="responsive">
+      </div>
+      <div class="carousel-item">
+        <img src="hatter5.jpg" alt="Rét" class="responsive">
+      </div>
+      <div class="carousel-item">
+        <img src="hatter6.jpg" alt="Hegy" class="responsive">
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  
+  </div>
   <h1>Az első Bootstrap oldalam!</h1>
   <p>Méretezd át ezt a reszponzív oldalt, hogy lásd az effektet!</p> 
+
 </div>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>    
-    </ul>
-  </div>  
-</nav>
+
 
 <div class="container jumbotron text-center" style="margin-top:30px">
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-6">
       <h2>Rólam</h2>
       <h5>Egy fotó magamról:</h5>
       <img src="kugya.jpg" alt="kugya" title="kugya" class="fakeimg">
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-      <h3>Néhány link</h3>
-      <p>Lorem ipsum dolor sit ame.</p>
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
+      <p>Some text</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco..</p>
       <hr class="d-sm-none">
+      <h2>Párizs</h2>
+      <h5>Eifel torony</h5>
+      <img src="parizs.jpg" alt="Eifel torony" title="Eifel torony" class="fakeimg">
+      <p>
+        Ez a kedvenc építményem egész Franciaországban
+      </p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      
     </div>
-    <div class="col-sm-8">
+    <div class="col-sm-6">
       <h2>TITLE HEADING</h2>
       <h5>Title description, Dec 7, 2017</h5>
       <img src="macska.jpg" alt="macska" title="macska" class="fakeimg">
       <p>Some text..</p>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-      <br>
       <h2>TITLE HEADING</h2>
       <h5>Title description, Sep 2, 2017</h5>
       <img src="kutya.jpg" alt="kutya" title="kutya" class="fakeimg">
       <p>Some text..</p>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
     </div>
+    
   </div>
 </div>
   
